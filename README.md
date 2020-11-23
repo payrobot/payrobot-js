@@ -1,4 +1,4 @@
-# payrobot
+# Payrobot Javascript SDK
 
 Payrobot - JavaScript client for payrobot
 # Introduction
