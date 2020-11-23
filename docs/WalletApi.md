@@ -26,7 +26,7 @@ Creates a new wallet where you can receive, store and send funds for your web or
 import Payrobot from 'payrobot';
 
 let apiInstance = new Payrobot.WalletApi();
-let currency = btc; // String | Object Currency:   * `btc`: Bitcoin   * `ltc`: Litecoin   * `bch`: Bitcoin Cash 
+let currency = 'btc'; // String | Object Currency:   * `btc`: Bitcoin   * `ltc`: Litecoin   * `bch`: Bitcoin Cash 
 apiInstance.createWallet(currency, (error, data, response) => {
   if (error) {
     console.error(error);
