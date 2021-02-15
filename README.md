@@ -83,7 +83,9 @@ The library is hosted at a git repository https://github.com/payrobot/payrobot-j
 then install it via:
 
 ```shell
-    npm install payrobot/payrobot-js --save
+    git clone https://github.com/payrobot/payrobot-js
+    cd payrobot-js
+    npm install --save
 ```
 
 ### For browser
